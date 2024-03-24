@@ -4,17 +4,20 @@
 #include <string>
 using namespace std;
 
-struct TreeNode {
+struct TreeNode
+{
 	int val;
-	TreeNode* left;
-	TreeNode* right;
+	TreeNode *left;
+	TreeNode *right;
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-
-void createTree(TreeNode* node, int i, vector<string>& arr) {
-	if (node != nullptr) {
-		if (2 * i + 1 < arr.size()) {
+void createTree(TreeNode *node, int i, vector<string> &arr)
+{
+	if (node != nullptr)
+	{
+		if (2 * i + 1 < arr.size())
+		{
 			if (arr[2 * i + 1] == "null")
 				node->left = nullptr;
 			else
@@ -22,8 +25,8 @@ void createTree(TreeNode* node, int i, vector<string>& arr) {
 			createTree(node->left, 2 * i + 1, arr);
 		}
 
-
-		if (2 * i + 2 < arr.size()) {
+		if (2 * i + 2 < arr.size())
+		{
 			if (arr[2 * i + 2] == "null")
 				node->right = nullptr;
 			else
@@ -33,20 +36,19 @@ void createTree(TreeNode* node, int i, vector<string>& arr) {
 	}
 }
 
-
-TreeNode* levelOrderCreateTree(vector<string>& arr) {
+TreeNode *levelOrderCreateTree(vector<string> &arr)
+{
 	if (arr.size() == 0)
 		return nullptr;
-	TreeNode* head = new TreeNode(stoi(arr[0]));
+	TreeNode *head = new TreeNode(stoi(arr[0]));
 	createTree(head, 0, arr);
 	return head;
 }
 
+int main()
+{
 
-int main() {
-
-
-	vector<string> arr = { "2","1","3","null","4","null","7" };
-	TreeNode* node = levelOrderCreateTree(arr);
+	vector<string> arr = {"2", "1", "3", "null", "4", "null", "7"};
+	TreeNode *node = levelOrderCreateTree(arr);
 	return 0;
 }

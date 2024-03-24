@@ -5,39 +5,39 @@
 
 //*
 // * Definition for a binary tree node.
-  struct TreeNode {
-      int val;
-      TreeNode *left;
-      TreeNode *right;
-      TreeNode() : val(0), left(nullptr), right(nullptr) {}
-      TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-  };
- 
+struct TreeNode
+{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
 
-  bool isBalanced(TreeNode* root) {
-      if (root == NULL)
-      {
-          return true;
-      }
-      int iDepthDiff = 0;
-      while ((iDepthDiff < 1) && (root->left || root->right != NULL))
-      {
-          if (((root->left && root->right) == NULL) & (((root->left || root->right) != NULL)))
-          {
-              iDepthDiff++;
-          }
-          if (iDepthDiff > 1)
-          {
-              return false;
-          }
-          else if (iDepthDiff < 1)
-          {
-              if (root->left)
-          }
-      }
-
-  }
+bool isBalanced(TreeNode *root)
+{
+    if (root == NULL)
+    {
+        return true;
+    }
+    int iDepthDiff = 0;
+    while ((iDepthDiff < 1) && (root->left || root->right != NULL))
+    {
+        if (((root->left && root->right) == NULL) & (((root->left || root->right) != NULL)))
+        {
+            iDepthDiff++;
+        }
+        if (iDepthDiff > 1)
+        {
+            return false;
+        }
+        else if (iDepthDiff < 1)
+        {
+            if (root->left)
+        }
+    }
+}
 
 int main()
 {
@@ -47,7 +47,7 @@ int main()
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
+// Tips for Getting Started:
 //   1. Use the Solution Explorer window to add/manage files
 //   2. Use the Team Explorer window to connect to source control
 //   3. Use the Output window to see build output and other messages

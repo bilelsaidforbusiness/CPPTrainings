@@ -4,35 +4,44 @@
 #include <iostream>
 #include <memory>
 
-class Shape {
+class Shape
+{
 public:
     virtual void draw() const = 0;
-    virtual ~Shape() {
+    virtual ~Shape()
+    {
         std::cout << "Shape Destructor" << std::endl;
     }
 };
 
-class Circle : public Shape {
+class Circle : public Shape
+{
 public:
-    void draw() const override {
+    void draw() const override
+    {
         std::cout << "Drawing a circle." << std::endl;
     }
-     ~Circle() override  {
+    ~Circle() override
+    {
         std::cout << "Circle Destructor" << std::endl;
     }
 };
 
-class Square : public Shape {
+class Square : public Shape
+{
 public:
-    void draw() const override {
+    void draw() const override
+    {
         std::cout << "Drawing a square." << std::endl;
     }
-    ~Square() override{
+    ~Square() override
+    {
         std::cout << "Square Destructor" << std::endl;
     }
 };
 
-int main() {
+int main()
+{
     // Utilisation de pointeurs intelligents pour gérer la mémoire
     const std::unique_ptr<Shape> shape1 = std::make_unique<Circle>();
     const std::unique_ptr<Shape> shape2 = std::make_unique<Square>();

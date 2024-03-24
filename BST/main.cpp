@@ -5,22 +5,25 @@
 
 using namespace std;
 
-class Node {
+class Node
+{
 public:
     int data;
-    Node* left;
-    Node* right;
-    Node(int d) {
+    Node *left;
+    Node *right;
+    Node(int d)
+    {
         data = d;
         left = NULL;
         right = NULL;
     }
 };
 
-class Solution {
+class Solution
+{
 public:
-
-    void preOrder(Node* root) {
+    void preOrder(Node *root)
+    {
 
         if (root == NULL)
             return;
@@ -48,7 +51,8 @@ public:
 
     */
 
-    Node* insert(Node* root, int data) {
+    Node *insert(Node *root, int data)
+    {
 
         if (!root)
         {
@@ -65,20 +69,21 @@ public:
 
         return root;
     }
-
 };
 
-int main() {
+int main()
+{
 
     Solution myTree;
-    Node* root = NULL;
+    Node *root = NULL;
 
     int t;
     int data;
 
     std::cin >> t;
 
-    while (t-- > 0) {
+    while (t-- > 0)
+    {
         std::cin >> data;
         root = myTree.insert(root, data);
     }

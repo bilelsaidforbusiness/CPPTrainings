@@ -1,3 +1,0 @@
-D:/CPP/Interviews/PolymorphismSmathpointers/cmake-build-debug/CMakeFiles/PolymorphismSmathpointers.dir
-D:/CPP/Interviews/PolymorphismSmathpointers/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CPP/Interviews/PolymorphismSmathpointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
