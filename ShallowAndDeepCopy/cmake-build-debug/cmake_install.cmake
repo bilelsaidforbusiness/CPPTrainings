@@ -1,8 +1,8 @@
-# Install script for directory: D:/CPP/Interviews/ShallowAndDeepCopy
+# Install script for directory: D:/CPP/CPPTrainings/ShallowAndDeepCopy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ShallowCopy")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ShallowAndDeepCopy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CPP/Interviews/ShallowAndDeepCopy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CPP/CPPTrainings/ShallowAndDeepCopy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Users\BilelSaid\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\CPP\Interviews\EmulateReferencePointer -BD:\CPP\Interviews\EmulateReferencePointer\cmake-build-debug
+  command = "C:\Users\BilelSaid\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\CPP\CPPTrainings\EmulateReferencePointer -BD:\CPP\CPPTrainings\EmulateReferencePointer\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

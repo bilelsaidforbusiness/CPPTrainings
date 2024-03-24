@@ -1,4 +1,4 @@
-# Install script for directory: D:/CPP/Interviews/destructor
+# Install script for directory: D:/CPP/CPPTrainings/destructor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CPP/Interviews/destructor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CPP/CPPTrainings/destructor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

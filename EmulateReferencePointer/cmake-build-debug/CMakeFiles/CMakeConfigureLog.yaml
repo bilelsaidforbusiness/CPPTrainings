@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe
+        D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+        D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pp9rg0"
-      binary: "D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pp9rg0"
+      source: "D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dwy1ua"
+      binary: "D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dwy1ua"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pp9rg0'
+        Change Dir: 'D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dwy1ua'
         
-        Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_47365
-        [1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_3517c
+        [1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -82,8 +82,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47365.dir/'
-         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47365.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\ccZm7fyr.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3517c.dir/'
+         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3517c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cc6QX5MB.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -101,13 +101,13 @@ events:
          C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47365.dir/'
-         as -v -o CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\ccZm7fyr.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3517c.dir/'
+         as -v -o CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cc6QX5MB.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj -o cmTC_47365.exe -Wl,--out-implib,libcmTC_47365.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj -o cmTC_3517c.exe -Wl,--out-implib,libcmTC_3517c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/BilelSaid/AppData/Local/Programs/CLion\\ Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -118,9 +118,9 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47365.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47365.'
-         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_47365.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_47365.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47365.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47365.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3517c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3517c.'
+         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_3517c.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3517c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3517c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3517c.'\x0d
         
       exitCode: 0
   -
@@ -154,10 +154,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pp9rg0']
+        ignore line: [Change Dir: 'D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dwy1ua']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_47365]
-        ignore line: [[1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_3517c]
+        ignore line: [[1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -165,8 +165,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47365.dir/']
-        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47365.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\ccZm7fyr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3517c.dir/']
+        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3517c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cc6QX5MB.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -184,8 +184,8 @@ events:
         ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47365.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\ccZm7fyr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3517c.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cc6QX5MB.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/]
@@ -195,8 +195,8 @@ events:
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj -o cmTC_47365.exe -Wl --out-implib libcmTC_47365.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj -o cmTC_3517c.exe -Wl --out-implib libcmTC_3517c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/BilelSaid/AppData/Local/Programs/CLion\\ Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -213,9 +213,9 @@ events:
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47365.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47365.']
-        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_47365.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_47365.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_47365.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47365.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47365.'\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3517c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3517c.']
+        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_3517c.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_3517c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3517c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3517c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3517c.'\x0d]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -233,8 +233,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ss441o"
-      binary: "D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ss441o"
+      source: "D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r3en0m"
+      binary: "D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r3en0m"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -243,10 +243,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ss441o'
+        Change Dir: 'D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r3en0m'
         
-        Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_b1d01
-        [1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_16759
+        [1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE
         Target: x86_64-w64-mingw32
@@ -254,8 +254,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b1d01.dir/'
-         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b1d01.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cceEIKxv.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_16759.dir/'
+         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_16759.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cctY7Rgs.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -279,13 +279,13 @@ events:
          C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b1d01.dir/'
-         as -v -o CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cceEIKxv.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_16759.dir/'
+         as -v -o CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cctY7Rgs.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b1d01.exe -Wl,--out-implib,libcmTC_b1d01.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_16759.exe -Wl,--out-implib,libcmTC_16759.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE
         COLLECT_LTO_WRAPPER=C:/Users/BilelSaid/AppData/Local/Programs/CLion\\ Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -296,9 +296,9 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1d01.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b1d01.'
-         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_b1d01.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b1d01.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1d01.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b1d01.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16759.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_16759.'
+         C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_16759.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_16759.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16759.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_16759.'\x0d
         
       exitCode: 0
   -
@@ -338,10 +338,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ss441o']
+        ignore line: [Change Dir: 'D:/CPP/CPPTrainings/EmulateReferencePointer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r3en0m']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_b1d01]
-        ignore line: [[1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_16759]
+        ignore line: [[1/2] C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -349,8 +349,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b1d01.dir/']
-        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b1d01.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cceEIKxv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_16759.dir/']
+        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_16759.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cctY7Rgs.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -374,8 +374,8 @@ events:
         ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b1d01.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cceEIKxv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_16759.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BILELS~1\\AppData\\Local\\Temp\\cctY7Rgs.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/]
@@ -385,8 +385,8 @@ events:
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b1d01.exe -Wl --out-implib libcmTC_b1d01.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_16759.exe -Wl --out-implib libcmTC_16759.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\BILELS~1\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/BilelSaid/AppData/Local/Programs/CLion\\ Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -403,9 +403,9 @@ events:
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1d01.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b1d01.']
-        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_b1d01.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_b1d01.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b1d01.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1d01.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b1d01.'\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16759.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_16759.']
+        ignore line: [ C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_16759.exe C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_16759.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_16759.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BilelSaid/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16759.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_16759.'\x0d]
         ignore line: []
         ignore line: []
         implicit libs: []

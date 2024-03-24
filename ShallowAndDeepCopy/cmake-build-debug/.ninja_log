@@ -1,3 +1,4 @@
 # ninja log v5
-15	700	7329495514161488	CMakeFiles/ShallowCopy.dir/main.cpp.obj	3f5061dfcc961336
 701	845	7329495515547772	ShallowCopy.exe	50eeb494a7e10a27
+17	777	7329975555923327	CMakeFiles/ShallowAndDeepCopy.dir/main.cpp.obj	91830364acc16cce
+781	950	7329975557549002	ShallowAndDeepCopy.exe	20f9fbd36c3ac0fa
