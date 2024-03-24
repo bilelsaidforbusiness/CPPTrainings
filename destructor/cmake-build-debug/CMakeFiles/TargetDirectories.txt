@@ -1,0 +1,3 @@
+D:/CPP/Interviews/destructor/cmake-build-debug/CMakeFiles/destructor.dir
+D:/CPP/Interviews/destructor/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CPP/Interviews/destructor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

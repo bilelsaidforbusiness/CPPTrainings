@@ -1,0 +1,15 @@
+# ninja log v5
+5	146	7321250803328855	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+508	643	7321250808242571	destructor.exe	677e1dfbbd0655ca
+9	390	7321257533322528	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+391	694	7321257536314576	destructor.exe	677e1dfbbd0655ca
+9	142	7321260528830819	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+142	268	7321260530042371	destructor.exe	677e1dfbbd0655ca
+7	617	7321269037441474	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+618	741	7321269038648271	destructor.exe	677e1dfbbd0655ca
+10	648	7321269403734720	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+649	769	7321269404901255	destructor.exe	677e1dfbbd0655ca
+68	1855	7321598303841662	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+1856	2256	7321598307801056	destructor.exe	677e1dfbbd0655ca
+13	657	7321628138806045	CMakeFiles/destructor.dir/main.cpp.obj	494b1e22ec9df8fb
+657	814	7321628140311811	destructor.exe	677e1dfbbd0655ca

@@ -1,0 +1,3 @@
+D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/EmulateReferencePointer.dir
+D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CPP/Interviews/EmulateReferencePointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
